@@ -1,6 +1,6 @@
 package io.github.perplexhub.rsql;
 
-import static io.github.perplexhub.rsql.RSQLJPASupport.*;
+import static io.github.perplexhub.rsql.jpa.RSQLJPASupport.*;
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -10,10 +10,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import io.github.perplexhub.rsql.model.Company;
-import io.github.perplexhub.rsql.model.User;
-import io.github.perplexhub.rsql.repository.jpa.CompanyRepository;
-import io.github.perplexhub.rsql.repository.jpa.UserRepository;
+import io.github.perplexhub.rsql.common.model.Company;
+import io.github.perplexhub.rsql.common.model.User;
+import io.github.perplexhub.rsql.common.repository.jpa.CompanyRepository;
+import io.github.perplexhub.rsql.common.repository.jpa.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
-@EnableJpaRepositories(basePackages = { "io.github.perplexhub.rsql.repository.jpa" })
+@EnableJpaRepositories(basePackages = { "io.github.perplexhub.rsql.common.repository.jpa" })
 @EnableTransactionManagement
 @SpringBootApplication
 public class Application {

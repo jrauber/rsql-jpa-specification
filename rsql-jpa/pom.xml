@@ -12,13 +12,13 @@
 		<dependency>
 			<groupId>io.github.perplexhub</groupId>
 			<artifactId>rsql-common</artifactId>
-			<version>6.0.27-SNAPSHOT</version>
+			<version>${project.parent.version}</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>io.github.perplexhub</groupId>
-			<artifactId>rsql-common</artifactId>
-			<version>6.0.27-SNAPSHOT</version>
-			<type>test-jar</type>
+			<artifactId>rsql-common-test</artifactId>
+			<version>${project.parent.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
