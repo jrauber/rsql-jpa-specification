@@ -8,6 +8,8 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import java.util.List;
 
 import io.github.perplexhub.rsql.common.test.model.Company;
+import io.github.perplexhub.rsql.common.test.model.QCompany;
+import io.github.perplexhub.rsql.common.test.model.QUser;
 import io.github.perplexhub.rsql.common.test.model.User;
 import io.github.perplexhub.rsql.common.test.repository.querydsl.CompanyRepository;
 import io.github.perplexhub.rsql.common.test.repository.querydsl.UserRepository;

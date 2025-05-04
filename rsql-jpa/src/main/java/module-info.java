@@ -12,4 +12,8 @@ module rsql.jpa {
 
     exports io.github.perplexhub.rsql.jpa;
     exports io.github.perplexhub.rsql.jpa.jsonb;
+
+    opens io.github.perplexhub.rsql.jpa.custom to spring.core, org.hibernate.orm.core;
+    opens io.github.perplexhub.rsql.jpa.model to spring.core, org.hibernate.orm.core;
+    opens io.github.perplexhub.rsql.jpa to spring.core, org.hibernate.orm.core;
 }

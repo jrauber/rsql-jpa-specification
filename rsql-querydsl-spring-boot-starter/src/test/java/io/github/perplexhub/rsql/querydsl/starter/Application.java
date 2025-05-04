@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-@Configuration
+@Configuration(proxyBeanMethods=false)
 @EnableJpaRepositories(basePackages = { "io.github.perplexhub.rsql.common.repository.querydsl" })
 @EnableTransactionManagement
 @SpringBootApplication

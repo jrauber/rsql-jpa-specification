@@ -6,14 +6,12 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 import java.util.List;
 
+import io.github.perplexhub.rsql.common.test.model.*;
+import io.github.perplexhub.rsql.common.test.repository.jpa.*;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import io.github.perplexhub.rsql.common.model.Company;
-import io.github.perplexhub.rsql.common.model.User;
-import io.github.perplexhub.rsql.common.repository.jpa.CompanyRepository;
-import io.github.perplexhub.rsql.common.repository.jpa.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

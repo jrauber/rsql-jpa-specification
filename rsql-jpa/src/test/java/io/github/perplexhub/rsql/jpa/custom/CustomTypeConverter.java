@@ -4,7 +4,7 @@ import jakarta.persistence.AttributeConverter;
 import jakarta.persistence.Converter;
 
 @Converter(autoApply = true)
-public class CustomTypeConverter implements AttributeConverter<CustomType, String> {
+class CustomTypeConverter implements AttributeConverter<CustomType, String> {
 
     @Override
     public String convertToDatabaseColumn(CustomType attribute) {

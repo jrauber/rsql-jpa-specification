@@ -1,5 +1,6 @@
 package io.github.perplexhub.rsql.jpa;
 
+import io.github.perplexhub.rsql.jpa.JoinUtils;
 import jakarta.persistence.criteria.Fetch;
 import jakarta.persistence.criteria.From;
 import jakarta.persistence.criteria.Join;
