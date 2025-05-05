@@ -4,5 +4,6 @@ module rsql.jpa.specification {
     requires spring.context;
     requires spring.core;
     requires rsql.querydsl;
+    requires rsql.common;
     requires org.slf4j;
 }

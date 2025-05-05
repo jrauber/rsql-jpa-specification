@@ -24,7 +24,6 @@
 			<groupId>io.github.perplexhub</groupId>
 			<artifactId>rsql-common-test</artifactId>
 			<version>${project.parent.version}</version>
-			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>

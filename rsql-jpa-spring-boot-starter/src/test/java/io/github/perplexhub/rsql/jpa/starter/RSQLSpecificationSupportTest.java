@@ -1,4 +1,4 @@
-package io.github.perplexhub.rsql;
+package io.github.perplexhub.rsql.jpa.starter;
 
 import static io.github.perplexhub.rsql.jpa.RSQLJPASupport.*;
 import static org.hamcrest.CoreMatchers.*;

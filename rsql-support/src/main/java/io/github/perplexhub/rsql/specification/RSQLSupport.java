@@ -21,7 +21,7 @@ public class RSQLSupport extends RSQLQueryDslSupport {
 	protected String getVersion() {
 		try {
 			Properties prop = new Properties();
-			prop.load(getClass().getResourceAsStream("/META-INF/maven/io.github.perplexhub/rsql-support/pom.properties"));
+			prop.load(prop.getClass().getResourceAsStream("/META-INF/maven/io.github.perplexhub/rsql-support/pom.properties"));
 			String version = prop.getProperty("version");
 			return StringUtils.hasText(version) ? "[" + version + "] " : "";
 		} catch (Exception e) {

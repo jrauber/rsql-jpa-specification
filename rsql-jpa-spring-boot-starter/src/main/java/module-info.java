@@ -12,4 +12,6 @@ module rsql.jpa.spring.boot.starter.jpa {
     requires java.naming;
 
     exports io.github.perplexhub.rsql.jpa.starter;
+
+    opens io.github.perplexhub.rsql.jpa.starter to spring.core;
 }

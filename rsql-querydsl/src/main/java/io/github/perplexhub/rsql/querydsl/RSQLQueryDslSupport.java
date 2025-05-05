@@ -32,7 +32,7 @@ public class RSQLQueryDslSupport extends RSQLJPASupport {
 	}
 
 	public static BooleanExpression toPredicate(final String rsqlQuery, final Path qClazz, final Map<String, String> propertyPathMapper) {
-		log.debug("toPredicate({},qClazz:{},propertyPathMapper:{})", rsqlQuery, qClazz);
+		log.debug("toPredicate({},qClazz:{},propertyPathMapper:{})", rsqlQuery, qClazz, propertyPathMapper);
 		if (StringUtils.hasText(rsqlQuery)) {
 			return new RSQLParser(RSQLOperators.supportedOperators())
 					.parse(rsqlQuery)
