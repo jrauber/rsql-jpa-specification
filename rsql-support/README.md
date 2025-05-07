@@ -33,7 +33,7 @@ Supported Operators: [Supported Operators](https://github.com/perplexhub/rsql-jp
 ## Import Configuration
 
 ```java
-@Import(io.github.perplexhub.rsql.RSQLConfig.class)
+@Import(io.github.perplexhub.rsql.specification.RSQLConfig.class)
 ```
 
 ## Add JpaSpecificationExecutor and QuerydslPredicateExecutor to your JPA repository class
@@ -144,7 +144,7 @@ repository.findAll(RSQLSupport.toPredicate(filter, QUser.user));
 repository.findAll(RSQLSupport.toPredicate(filter, QUser.user), pageable);
 
 // use static import
-import static io.github.perplexhub.rsql.RSQLSupport.*;
+import static io.github.perplexhub.rsql.jpa.RSQLSupport.*;
 
 repository.findAll(toPredicate(filter, QUser.user));
 repository.findAll(toPredicate(filter, QUser.user), pageable);
